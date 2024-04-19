@@ -1,65 +1,34 @@
-## climaPro App
+# Weather App
 
+<a href="https://holladworld.github.io/climapro-weather-app/">Live Demo </a>
 
-### Weather application designed to keep you informed about current and forecasted weather conditions with precision and ease. 
+![](demo.gif)
 
-From the comfort of your device, ClimaPro provides real-time information on crucial weather indicators such as 'Feels Like' temperature, providing insights beyond the standard temperature reading. 
+# About the Project
 
-With ClimaPro, you can seamlessly track the sunrise and sunset times, allowing you to plan your day effectively around daylight hours. Additionally, ClimaPro delivers vital data on humidity levels, wind speed, and atmospheric pressure, empowering you to make informed decisions based on the latest meteorological trends.
+Weather app created using vanilla JavaScript and APIs. You can search cities worldwide and get current and forecast weather features.
 
-Whether you're a casual user looking to plan outdoor activities or a seasoned weather enthusiast seeking detailed forecasts, ClimaPro is your trusted companion for all things weather-related.
+## Features
 
-Explore Climapro app:
+- Search cities worldwide.
+- Display current temperature of the searched city.
+- Display sunrise and sunset of the searched location in its local time.
+- Display current feel likes temperatures, humidity, wind speed, and pressure of the searched city.
+- Switch between imperial and metric systems.
+- Provide 24 hours forecast displayed in each 3 hours.
+- Different weather symbols and background videos for each weather condition.
+- Display error message if searched city could not be found.
 
-[![Climapro App Launched](https://holladworld.github.io/climapro-app)]
+# Technologies Used
 
-## Installation
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg" width="50"> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg" width="50"> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" width="50">
 
-Follow these steps to install and run the Climapro app:
+# Resources Used
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/climapro-app.git
-            ```
-2. **Navigate to the project directory:**
- ```bash
- cd climapro-app
-  ```
+API: <a href="https://openweathermap.org/api">Open Weather</a>
+\
+Background Videos: <a href="https://www.bandicam.com/">Screen Recorder</a>
 
- 3. **Install dependencies:**
-    ```bash
-  npm install
-   ```
-
- 4. **Start the development server:**
-   ```bash
-   npm start
-```
-* -- Once the development server is running, open your web browser and go to:
- ```
-http://localhost:3000
- ```
- You should see the Climapro app interface
-
-* - Use the search bar to enter a location and retrieve its current weather information.
-* - Toggle between Celsius and Fahrenheit units using the temperature unit switch.
-
-* - Enjoy real-time weather updates!
-
-## Contributing
-
-                                                                     Contributions are welcome! If you'd like to contribute to the development of Climapro, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
-5. Submit a pull request with a detailed description of your changes.
-
-## Repository
-
-- **Email:** oladimejiolay@outlook.com
-- **GitHub:** [Holladworld](https://github.com/Holladworld)
-                                                                     ## License
-
-                                                                     This project is licensed under the [MIT License](LICENSE).
+Font: <a href="https://fonts.google.com/">Google Fonts</a>
+\
+Icons: <a href="https://materialdesignicons.com/">Material Design Icons</a> and <a href="https://openweathermap.org/weather-conditions">Open Weather</a>

@@ -1,7 +1,7 @@
 {
-  "name": "clima-pro",
+  "name": "climapro-weather-app",
   "version": "1.0.0",
-  "description": "Clima pro is an app for checking detailed weather conditions including 'Feels Like' temperature, sunrise/sunset times, humidity, wind speed, and pressure",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development --watch --progress",
@@ -9,17 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/holladworld/climapro-app.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/holladworld/climapro-app/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/luaroxy/odin-weatherapp#readme",
+  "homepage": "",
   "devDependencies": {
     "@babel/core": "^7.19.0",
     "@babel/preset-env": "^7.19.0",
+    "@webpack-cli/generators": "^3.0.7",
     "babel-loader": "^8.2.5",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
